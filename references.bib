@@ -1949,4 +1949,64 @@ eprint = {
   year = 2000
 }
 
+@ARTICLE{Martinez15,
+   author       = "Nathan Luehr and Alex G. B. Jin and Todd J. Martínez",
+   journal      = "J. Chem. Theory Comput.", 
+   title        = "Ab Initio Interactive Molecular Dynamics on Graphical Processing Units (GPUs)", 
+   year         = "2015", 
+   volume       = "11", 
+   pages        = "4536-4544",
+}
 
+@ARTICLE{Martinez08, 
+author={I. S. {Ufimtsev} and T. J. {Martínez}}, 
+journal={Computing in Science Engineering}, 
+title={Graphical Processing Units for Quantum Chemistry}, 
+year={2008}, 
+volume={10}, 
+number={6}, 
+pages={26-34}, 
+keywords={chemistry computing;computer graphics;electronic structure;floating point arithmetic;quantum chemistry;software performance evaluation;graphical processing units;quantum chemistry;electronic structure theory;floating-point operations;memory bandwidth;single-precision accuracy;algorithm performance;Chemistry;Quantum mechanics;Quantum computing;Computer architecture;Samarium;Chemicals;Arithmetic;Computer interfaces;Hardware;Gaussian integrals;quantum chemistry;graphics processing unit;Coulomb repulsion;novel architectures}, 
+doi={10.1109/MCSE.2008.148}, 
+ISSN={1521-9615}, 
+month={Nov},}
+
+@ARTICLE{Martinez16, 
+author={Chenchen Song and Lee-Ping Wang and Todd J. Martínez}, 
+journal={J. Chem. Theory Comput.}, 
+title={Automated Code Engine for Graphical Processing Units: Application to the Effective Core Potential Integrals and Gradients}, 
+year={2016}, 
+volume={12}, 
+pages={92-106}, 
+}
+
+@article{KAO11,
+title = "GPU accelerated tensor contractions in the plaquette renormalization scheme",
+journal = "Computers and Fluids",
+volume = "45",
+number = "1",
+pages = "55 - 58",
+year = "2011",
+note = "22nd International Conference on Parallel Computational Fluid Dynamics (ParCFD 2010)",
+issn = "0045-7930",
+doi = "https://doi.org/10.1016/j.compfluid.2010.10.012",
+url = "http://www.sciencedirect.com/science/article/pii/S004579301000280X",
+author = "J.F. Yu and H.-C. Hsiao and Ying-Jer Kao",
+keywords = "Plaquette renormalized state, GPU architecture, Frustrated Heisenberg – model",
+abstract = "We use the graphical processing unit (GPU) to accelerate the tensor contractions, which is the most time consuming operations in the variational method based on the plaquette renormalized states. Using a frustrated Heisenberg J1–J2 model on a square lattice as an example, we implement the algorithm based on the compute unified device architecture (CUDA). For a single plaquette contraction with the bond dimensions C=3 of each rank of the tensor, results are obtained 25 times faster on GPU than on a current CPU core. This makes it possible to simulate systems with the size 8×8 and larger, which are extremely time consuming on a single CPU. This technology successfully relieves the computing time dependence with C, while in the CPU serial computation, the total required time scales both with C and the system size."
+}
+
+@article{Szolgay14,
+title = "The density matrix renormalization group algorithm on kilo-processor architectures: Implementation and trade-offs",
+journal = "Computer Physics Communications",
+volume = "185",
+number = "6",
+pages = "1570 - 1581",
+year = "2014",
+issn = "0010-4655",
+doi = "https://doi.org/10.1016/j.cpc.2014.02.021",
+url = "http://www.sciencedirect.com/science/article/pii/S0010465514000654",
+author = "Csaba Nemes and Gergely Barcza and Zoltán Nagy and Örs Legeza and Péter Szolgay",
+keywords = "Strongly correlated systems, DMRG, GPU acceleration, FPGA acceleration",
+abstract = "In the numerical analysis of strongly correlated quantum lattice models one of the leading algorithms developed to balance the size of the effective Hilbert space and the accuracy of the simulation is the density matrix renormalization group (DMRG) algorithm, in which the run-time is dominated by the iterative diagonalization of the Hamilton operator. As the most time-dominant step of the diagonalization can be expressed as a list of dense matrix operations, the DMRG is an appealing candidate to fully utilize the computing power residing in novel kilo-processor architectures. In the paper a smart hybrid CPU–GPU implementation is presented, which exploits the power of both CPU and GPU and tolerates problems exceeding the GPU memory size. Furthermore, a new CUDA kernel has been designed for asymmetric matrix–vector multiplication to accelerate the rest of the diagonalization. Besides the evaluation of the GPU implementation, the practical limits of an FPGA implementation are also discussed."
+}
